@@ -1,0 +1,10 @@
+TERMUX_PKG_HOMEPAGE="https://github.com/Anton193/anton-remini"
+TERMUX_PKG_DESCRIPTION="A tool for enhancing image quality using the Remini AI. This tool improves photo resolution and clarity, making images sharper and of higher quality."
+TERMUX_PKG_LICENSE="MIT"
+TERMUX_PKG_MAINTAINER="@termux"
+TERMUX_PKG_VERSION="1.0.1"
+TERMUX_PKG_SRCURL="https://github.com/Anton193/anton-remini/archive/refs/tags/v${TERMUX_PKG_VERSION}.tar.gz"
+TERMUX_PKG_SHA256=7c56a8ea22a82f4aaf668b707cc1b4783506fee6760458a09c80ef63c10d1da9
+TERMUX_PKG_DEPENDS="nodejs"
+TERMUX_PKG_BUILD_IN_SRC=true
+TERMUX_PKG_AUTO_UPDATE=true
